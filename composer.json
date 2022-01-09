@@ -1,0 +1,24 @@
+{
+    "name": "onuryanmis/php-design-patterns",
+    "description": "PHP Design Patterns.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Onur Yanmış",
+            "email": "onuryanmis24@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    }
+}
